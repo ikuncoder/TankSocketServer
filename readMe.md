@@ -1,4 +1,13 @@
 <<<<<<< HEAD
+# 坦克大战网络版服务端
+
+## 功能
+
+1)接收客户端传来的动作指令，进行逻辑处理<br>
+2)处理完接收到在指令后，将坦克的状态广播给两个客户端，包括位置，方向，血量，分数值等<br>
+
+
+
 # 坦克大战
 
 ## 网络版
@@ -17,15 +26,8 @@
 + 随机地图生成
 
 ## tips<br>
-1)TankServer需要先启动，启动类是lskServer.SocketServer<br>
-2)TankClient需要启动两次，启动类是lskClient.SocketClient<br>
-
-
-=======
-# SocketTank<br>
-### 这个目录下面包含三个工程<br>
-1)TankClient是网络版坦克大战的客户端<br>
-2)TankServer是网络版坦克大战的服务端<br>
+1)TankSocketServer是网络版坦克大战的服务端,需要先启动，启动类是lskServer.SocketServer<br>
+2)TankSocketClient是网络版坦克大战的客户端,需要启动两次，启动类是lskClient.SocketClient<br>
 3)Tank-master是单机版坦克大战<br>
 
 ## 协议
@@ -38,14 +40,6 @@
 1)AI寻路用的是A*算法<br>
 2)随机地图是根据服务端传给客户端的地图数字选择地图(客户端本来就存在地图)<br>
 
-
-
-# 坦克大战网络版服务端
-
-## 功能
-
-1)接收客户端传来的动作指令，进行逻辑处理<br>
-2)处理完接收到在指令后，将坦克的状态广播给两个客户端，包括位置，方向，血量，分数值等<br>
 
 
 
