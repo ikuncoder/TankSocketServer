@@ -4,8 +4,8 @@
 ## 网络版
 
 本目录包含三个工程:<br>
-1)TankClient是网络版的坦克大战的客户端，主要是界面的显示<br>
-2)TankServer是网络版的坦克大战的服务端，主要是做逻辑的判断<br>
+1)TankSocketClient是网络版的坦克大战的客户端，主要是界面的显示<br>
+2)TankSocketServer是网络版的坦克大战的服务端，主要是做逻辑的判断<br>
 3)tank-master是单机版坦克大战，网络版的坦克大战就是基于这个单机版进行二次开发的<br>
 
 主类：tank.TankWorld
